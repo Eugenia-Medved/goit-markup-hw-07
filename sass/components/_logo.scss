@@ -1,0 +1,25 @@
+.logo,
+.logo-footer {
+  color: $title-text-color;
+  font-family: $font-logo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo {
+  margin-right: 85px;
+}
+
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo-web {
+  color: $accent-color;
+}
+.logo-studio-white {
+  color: $primary-white-color;
+}

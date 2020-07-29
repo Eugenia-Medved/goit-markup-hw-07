@@ -1,0 +1,83 @@
+body {
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+  font-family: $font-page, &font-alt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-text-color;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin-bottom: 94px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.container,
+.container-advantages,
+.container-whot-do-we,
+.container-team,
+.container-customers,
+.container-footer,
+.container-portfolio {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.box-advantages,
+.box-whot-do-we,
+.box-team,
+.list-icon,
+.fooret-box {
+  display: flex;
+  justify-content: space-between;
+}
